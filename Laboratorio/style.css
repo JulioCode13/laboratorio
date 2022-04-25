@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* pagina que contenga un 90% de ambos lados */
+main {
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/* Contenedor que contendra la imagen y el titulo de comercio Electr */
+.contenedor{
+    position: relative;
+}
+
+/* difuminacion de la imagen de fondo */
+#imagen-principal{
+    filter: blur(2px);
+    
+}
+
+
+.texto{
+    text-align: center;
+    margin-top: -350px;
+    color: wheat;
+    margin-bottom: 380px;
+}
+
+p{
+    font-size: 17px;
+}
+
+#imagen-comercio{
+margin-top:  -220px;
+margin-left: 800px;
+}
+
+h4{
+    margin-top: 40px;
+    color: blue;
+}
+
+.items{
+    margin-top:  25px;
+    margin-left: 20px;
+}
+
+.padding_principal{  
+    color:gray;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 45%;  
+}
+
+#texto-black{
+    color: black;
+    margin-bottom: 12px;
+}
+
+#imagenes{
+background-color: aqua;
+}
+#imagen1{
+    border-color: gainsboro;
+    border-style: solid;
+margin-left: 355px;
+margin-top: 20px;
+}
+
+#imagen2{
+    border-color: gainsboro;
+    border-style: solid;
+    height: 250px;
+margin-right: 255px;
+}
+
+#imagen3{
+    border-color: gainsboro;
+    border-style: solid;
+margin: -10px 70px  40px 230px;
+margin-left: 355px;
+}
+
+
+
+.segundaparte {
+    text-align: justify;  
+    margin-left: 400px;
+    margin-right: 90px;   
+}
+#titulo2-{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+
+}
+.windows-mobile{
+position: absolute;  
+margin-top: -790px;
+margin-left: 50px;
+ }
+
+.realidad{
+    position: absolute;  
+    margin-top: -590px;
+    margin-left: 50px;   
+}
+
+.sistema{
+    position: absolute;  
+    margin-top: -420px;
+    margin-left: 50px;   
+}
+
+.gerencia{
+    position: absolute;  
+    margin-top: -250px;
+    margin-left: 50px;  
+}
+
+.php{
+    position: absolute;  
+    margin-top: -110px;
+    margin-left: 50px;  
+}
+#siguiente-pagina{
+margin-top: 50px;
+}
+
+#li{
+    margin-bottom: 20px;
+}
+
+/*posicion de mi pagina siguiente con su hover*/
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: 40px;  
+}
+#paginasiguiente{
+    color: black;
+    margin-right: 100px;
+}
+#paginasiguiente:hover{
+    color: lime;
+}
+/*letras del footer h1 y p*/
+.footer-links{
+color: white;
+}
+footer{
+    margin-top: 70px;
+    text-align: center;
+    padding: 3px;
+    background-color: #4062bb;
+    
+    
+}
+a{
+    font-weight: 600px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: lime;
+}
